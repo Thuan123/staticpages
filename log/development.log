@@ -173,3 +173,25 @@ Cannot render console from 42.113.177.127! Allowed networks: 127.0.0.1, ::1, 127
 Processing by StaticPagesController#help as HTML
   Rendered static_pages/help.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 58ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 42.113.177.127 at 2015-10-05 15:29:42 +0000
+Cannot render console from 42.113.177.127! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 69ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 42.113.177.127 at 2015-10-05 15:29:42 +0000
+Cannot render console from 42.113.177.127! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 42.113.177.127 at 2015-10-05 15:29:42 +0000
+Cannot render console from 42.113.177.127! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 42.113.177.127 at 2015-10-05 15:31:09 +0000
+Cannot render console from 42.113.177.127! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
