@@ -2,14 +2,25 @@
 <html>
 <head>
   <!--<title>Workspace</title>-->
-  <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+  <title><%= full_title(yield(:title)) %> | Ruby on Rails Tutorial Sample App</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+   <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+      <%= link_to "Sample App", "#" %>
+     <nav>
+       
+  <ul class="nav navbar-nav navbar-right">
+       <li><%= link_to "Home", home_path %></li>
+       <li><%= link_to "About", about_path %></li>
+       <li><%= link_to "Help", help_path %></li>
+  </ul>
+  </nav>
+  </div>
+  </header>
 <%= yield %>
-
 </body>
 </html>
