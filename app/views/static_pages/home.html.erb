@@ -5,17 +5,18 @@
     <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
   </head>
   <body>
-    <h1>Sample App</h1>
-     <nav>
-  <ul class="nav navbar-nav navbar-right">
-       <li><%= link_to "About", about_path %></li>
-       <li><%= link_to "Help", help_path %></li>
-  </ul>
-  </nav>
-    <p>
-      This is the home page for the
-      <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-      sample application.
-    </p>
+    <div class="center jumbotron">
+      <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+      
+      
+    </div>
   </body>
 </html>

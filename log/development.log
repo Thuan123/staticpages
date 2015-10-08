@@ -195,3 +195,250 @@ Cannot render console from 42.113.177.127! Allowed networks: 127.0.0.1, ::1, 127
 Processing by StaticPagesController#home as HTML
   Rendered static_pages/home.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 113.190.46.190 at 2015-10-08 18:42:12 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 223ms (Views: 209.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 113.190.46.190 at 2015-10-08 18:42:13 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 113.190.46.190 at 2015-10-08 18:42:13 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 113.190.46.190 at 2015-10-08 18:42:13 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 113.190.46.190 at 2015-10-08 18:42:13 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 113.190.46.190 at 2015-10-08 18:42:13 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 113.190.46.190 at 2015-10-08 18:42:13 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 113.190.46.190 at 2015-10-08 18:42:13 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 113.190.46.190 at 2015-10-08 18:42:29 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 113.190.46.190 at 2015-10-08 18:42:34 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 113.190.46.190 at 2015-10-08 18:45:19 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 38ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 18:45:22 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 18:46:22 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/static_pages/home.html.erb:9: syntax error, unexpected '<'
+     <nav>
+      ^
+/home/ubuntu/workspace/app/views/static_pages/home.html.erb:11: syntax error, unexpected '<'
+       <li>'.freeze;@output_buffer.ap...
+        ^
+/home/ubuntu/workspace/app/views/static_pages/home.html.erb:12: unknown regexp option - l
+/home/ubuntu/workspace/app/views/static_pages/home.html.erb:13: syntax error, unexpected '<'
+       <li>'.freeze;@output_buffer.ap...
+        ^
+/home/ubuntu/workspace/app/views/static_pages/home.html.erb:14: unknown regexp option - l
+/home/ubuntu/workspace/app/views/static_pages/home.html.erb:15: syntax error, unexpected '<'
+  </nav>
+   ^
+/home/ubuntu/workspace/app/views/static_pages/home.html.erb:18: unterminated string meets end of file
+/home/ubuntu/workspace/app/views/static_pages/home.html.erb:18: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/static_pages/home.html.erb:9: syntax error, unexpected '<'
+  app/views/static_pages/home.html.erb:11: syntax error, unexpected '<'
+  app/views/static_pages/home.html.erb:12: unknown regexp option - l
+  app/views/static_pages/home.html.erb:13: syntax error, unexpected '<'
+  app/views/static_pages/home.html.erb:14: unknown regexp option - l
+  app/views/static_pages/home.html.erb:15: syntax error, unexpected '<'
+  app/views/static_pages/home.html.erb:18: unterminated string meets end of file
+  app/views/static_pages/home.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.8ms)
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 18:48:30 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 18:48:33 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 18:48:34 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 113.190.46.190 at 2015-10-08 18:48:35 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 18:50:18 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 18:57:23 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 18:57:37 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 18:57:39 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 55ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 19:07:28 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 225ms (Views: 214.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 19:09:29 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 440ms (Views: 426.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 19:11:14 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3080ms (Views: 3079.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-e56cd58ca3d20782105e7cd95a9885b5913c980c701666ce77bd6ba3b1408019.css?body=1" for 113.190.46.190 at 2015-10-08 19:11:17 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 19:12:09 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 83ms (Views: 82.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 19:19:26 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1628ms (Views: 1626.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-a95d27a4bf85f94158e21c29ddec13369714461c30058002bb763947a6007342.css?body=1" for 113.190.46.190 at 2015-10-08 19:19:29 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 19:20:20 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2646ms (Views: 2644.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-0a91018c9fd6cb0bb97f12728b63b0e7f3da4f9b5a02909ebb8c6045475945f9.css?body=1" for 113.190.46.190 at 2015-10-08 19:20:23 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 19:20:37 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 102ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 19:21:08 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2232ms (Views: 2231.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-a644d01600a2ba392bbb728ed6e1b85bb2658dedbfeef29008dd2aa3d6c2d1f1.css?body=1" for 113.190.46.190 at 2015-10-08 19:21:11 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 19:21:22 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 77ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 113.190.46.190 at 2015-10-08 19:22:05 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2120ms (Views: 2118.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-f1e43c19633a933c620172e4a88e902eb39d0a92c39e81143dc468df052a3706.css?body=1" for 113.190.46.190 at 2015-10-08 19:22:08 +0000
+Cannot render console from 113.190.46.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
